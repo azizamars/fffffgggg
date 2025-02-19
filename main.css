@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    padding-top: 22px;
+    background-color: #f3d787;
+}
+.container{
+    max-width: 1340px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+.header_link{
+    color: black;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 14px;
+    letter-spacing:1px ;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+.header_link:hover{
+    color: red;
+}
